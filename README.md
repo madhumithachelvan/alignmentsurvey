@@ -1,3 +1,6 @@
 This is a visualisation of statistics from a survey of alignment papers.
 
-<link href="all_fig.html" rel="import" />
+
+Below is a representation of papers from each year (2022-2025).
+
+<link href="slider_fig.html" rel="import" />
