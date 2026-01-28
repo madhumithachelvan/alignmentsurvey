@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />   <!--It is necessary to use the UTF-8 encoding with plotly graphics to get e.g. negative signs to render correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualisation of Alignment Survey</title>
+</head>
+
+<body>
+    <h1>Visualisation of Alignment Survey</h1>
+    <h2>Papers from each year (2022-2025)</h2>
+    {{ slider_fig|safe }}
+    <br>    
+    <h2>All papers</h2>
+    {{ all_fig|safe }}
+</body>
+</html>
